@@ -12,7 +12,8 @@ function maxBottle(cash){
     }
 
     calBottle();
-    console.log(total);
+
+    return total;
 }
 
-maxBottle(process.argv[2] || 0); // add || as fallback in case user did not enter anything from command line
+console.log(maxBottle(process.argv[2] || 0)); // add || as fallback in case user did not enter anything from command line

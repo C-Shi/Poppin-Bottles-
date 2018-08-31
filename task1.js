@@ -12,10 +12,12 @@ function maxBottle(cash){
     }
 
     calBottle();
-    console.log(total);
+
+    return total;
+    
 }
 
-maxBottle(10);
-maxBottle(20);
-maxBottle(30);
-maxBottle(40);
+console.log(maxBottle(10));
+console.log(maxBottle(20));
+console.log(maxBottle(30));
+console.log(maxBottle(40));
