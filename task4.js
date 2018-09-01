@@ -26,6 +26,8 @@ function maxBottle(cash){
 
     return {
         'TOTAL BOTTLE': total,
+        'REMAINING BOTTLE': total % 2,
+        'REMAINING CAP': total % 4,
         'TOTAL EARNED': {
             'BOTTLES': earnedFromBottle,
             'CAPS': earnedFromCap
